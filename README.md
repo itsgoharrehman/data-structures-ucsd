@@ -21,6 +21,12 @@ data-structures/
 │   ├── job_queue.py
 │   └── merging_tables.py
 ├── programming-assignment-3/
+│   ├── phone_book.py
+│   ├── hash_chains.py
+│   ├── hash_substring.py
+│   ├── substr.py
+│   ├── common_substring.py
+│   └── matching_with_mismatches.py
 └── programming-assignment-4/
 ```
 
@@ -50,12 +56,25 @@ data-structures/
 
 ---
 
+### 🔹 Programming Assignment 3: Hash Tables
+
+| File | Description |
+| :--- | :--- |
+| [`phone_book.py`](file:///c:/Users/Gohar%20Rehman/Desktop/data-structures/programming-assignment-3/phone_book.py) | Implements a fast phone book contact search using direct addressing. |
+| [`hash_chains.py`](file:///c:/Users/Gohar%20Rehman/Desktop/data-structures/programming-assignment-3/hash_chains.py) | Implements a hash table with chaining using polynomial hashing for string keys. |
+| [`hash_substring.py`](file:///c:/Users/Gohar%20Rehman/Desktop/data-structures/programming-assignment-3/hash_substring.py) | Implements the Rabin-Karp algorithm for fast pattern searching in text using rolling hashes. |
+| [`substr.py`](file:///c:/Users/Gohar%20Rehman/Desktop/data-structures/programming-assignment-3/substr.py) | Responds to $O(1)$ substring equality queries using double polynomial rolling hashes. |
+| [`common_substring.py`](file:///c:/Users/Gohar%20Rehman/Desktop/data-structures/programming-assignment-3/common_substring.py) | Finds the longest common substring between two strings using binary search and double rolling hashes. |
+| [`matching_with_mismatches.py`](file:///c:/Users/Gohar%20Rehman/Desktop/data-structures/programming-assignment-3/matching_with_mismatches.py) | Finds pattern occurrences allowing up to $k$ mismatches using double rolling hashes and binary search. |
+
+---
+
 ## 🚀 Usage
 
 Run any script using Python 3 with input supplied via standard input (`stdin`):
 
 ```bash
-python programming-assignment-2/build_heap.py < input.txt
+python programming-assignment-3/hash_substring.py < input.txt
 ```
 
 ---
