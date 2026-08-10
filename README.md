@@ -28,6 +28,11 @@ data-structures/
 │   ├── common_substring.py
 │   └── matching_with_mismatches.py
 └── programming-assignment-4/
+    ├── tree_orders.py
+    ├── is_bst.py
+    ├── is_bst_hard.py
+    ├── set_range_sum.py
+    └── rope.py
 ```
 
 ---
@@ -69,12 +74,24 @@ data-structures/
 
 ---
 
+### 🔹 Programming Assignment 4: Binary Search Trees & Self-Balancing Trees
+
+| File | Description |
+| :--- | :--- |
+| [`tree_orders.py`](file:///c:/Users/Gohar%20Rehman/Desktop/data-structures/programming-assignment-4/tree_orders.py) | Computes In-Order, Pre-Order, and Post-Order traversals of a binary tree. |
+| [`is_bst.py`](file:///c:/Users/Gohar%20Rehman/Desktop/data-structures/programming-assignment-4/is_bst.py) | Verifies if a given binary tree satisfies the Binary Search Tree (BST) property with distinct keys. |
+| [`is_bst_hard.py`](file:///c:/Users/Gohar%20Rehman/Desktop/data-structures/programming-assignment-4/is_bst_hard.py) | Verifies if a binary tree satisfies the BST property allowing equal keys in the right subtrees. |
+| [`set_range_sum.py`](file:///c:/Users/Gohar%20Rehman/Desktop/data-structures/programming-assignment-4/set_range_sum.py) | Implements a dynamic set data structure with range sum queries using Splay Trees. |
+| [`rope.py`](file:///c:/Users/Gohar%20Rehman/Desktop/data-structures/programming-assignment-4/rope.py) | Implements a Rope data structure using an implicit Splay Tree to efficiently process string cut-and-paste queries. |
+
+---
+
 ## 🚀 Usage
 
 Run any script using Python 3 with input supplied via standard input (`stdin`):
 
 ```bash
-python programming-assignment-3/hash_substring.py < input.txt
+python programming-assignment-4/tree_orders.py < input.txt
 ```
 
 ---
