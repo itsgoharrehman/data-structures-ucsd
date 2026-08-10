@@ -17,6 +17,9 @@ data-structures/
 │   ├── stack_with_max.py
 │   └── max_sliding_window.py
 ├── programming-assignment-2/
+│   ├── build_heap.py
+│   ├── job_queue.py
+│   └── merging_tables.py
 ├── programming-assignment-3/
 └── programming-assignment-4/
 ```
@@ -37,12 +40,22 @@ data-structures/
 
 ---
 
+### 🔹 Programming Assignment 2: Dynamic Arrays and Disjoint Sets
+
+| File | Description |
+| :--- | :--- |
+| [`build_heap.py`](file:///c:/Users/Gohar%20Rehman/Desktop/data-structures/programming-assignment-2/build_heap.py) | Converts an unsorted array into a Min-Heap in $O(N)$ time using in-place bottom-up sifting down. |
+| [`job_queue.py`](file:///c:/Users/Gohar%20Rehman/Desktop/data-structures/programming-assignment-2/job_queue.py) | Simulates parallel job processing across multiple threads using a Priority Queue (Min-Heap). |
+| [`merging_tables.py`](file:///c:/Users/Gohar%20Rehman/Desktop/data-structures/programming-assignment-2/merging_tables.py) | Simulates database table merge queries while tracking maximum table size using Disjoint Set Union (DSU) with Path Compression. |
+
+---
+
 ## 🚀 Usage
 
 Run any script using Python 3 with input supplied via standard input (`stdin`):
 
 ```bash
-python programming-assignment-1/check_brackets.py < input.txt
+python programming-assignment-2/build_heap.py < input.txt
 ```
 
 ---
@@ -56,4 +69,3 @@ python programming-assignment-1/check_brackets.py < input.txt
 ## 📄 License
 
 This project is licensed under the [MIT License](LICENSE).
-
