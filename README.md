@@ -50,3 +50,10 @@ python programming-assignment-1/check_brackets.py < input.txt
 ## 📜 Requirements
 
 - Python `3.x`
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
+
