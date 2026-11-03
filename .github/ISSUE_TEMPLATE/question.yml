@@ -1,0 +1,16 @@
+name: Conceptual Question
+description: Ask a conceptual question regarding algorithmic complexity or data structure design.
+title: "[QUESTION]: "
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Questions regarding data structures or asymptotic complexity. Please note that direct assignment solutions will not be completed for currently enrolled students.
+  - type: textarea
+    id: inquiry
+    attributes:
+      label: Your Question
+      description: Describe the conceptual challenge or algorithm question.
+    validations:
+      required: true
