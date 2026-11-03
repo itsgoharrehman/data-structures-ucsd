@@ -1,0 +1,32 @@
+name: Defect Report
+description: Report an issue in execution, documentation, or test runner.
+title: "[BUG]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please provide details regarding the defect in the solution runner or documentation.
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: Python version and operating system.
+      placeholder: "e.g., Python 3.10.12 on Ubuntu 22.04"
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Solution File and Input Data
+      description: Which assignment file and input caused the issue?
+      placeholder: "e.g., programming-assignment-4/rope.py with large string operations"
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Error Traceback or Incorrect Output
+      description: Include terminal output or traceback if available.
+    validations:
+      required: true
